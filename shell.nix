@@ -9,8 +9,7 @@ pkgs.mkShell {
   ];
 
   shellHook = ''
-    echo welcome
   '';
 
-  NIX_SHELL_NAME = "work";
+  NIX_SHELL_NAME = "demo";
 }
